@@ -1,0 +1,13 @@
+$break-mobile: 320px;
+$break-tablet: 1200px;
+$break-desktop: 1200px;
+
+.container {
+  margin: 0px auto;
+  width: 100%;
+  @media screen and (min-width: $break-desktop) {
+    max-width: 1200px;
+  }
+}
+
+

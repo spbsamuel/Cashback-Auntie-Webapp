@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Avenir-Light";
+  src: url("/fonts/Avenir-Light-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Avenir-Black";
+  src: url("/fonts/Avenir-Black-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Didot-Italic";
+  src: url("/fonts/Didot-Italic.ttf") format('ttf');
+  font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i');
+
+
+$avenir-normal: "Avenir-Light", sans-serif;
+$avenir-bold: "Avenir-Medium", sans-serif;
+$avenir-black: "Avenir-Black", sans-serif;
+$avenir-italic: "Avenir-Oblique", sans-serif;
+$avenir-bold-italic: "Avenir-MediumOblique", sans-serif;
+
+$didot-italic: "Didot-Italic", serif;
+
+$merriweather: 'Merriweather', serif;

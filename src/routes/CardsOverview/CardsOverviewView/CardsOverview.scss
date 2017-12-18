@@ -1,0 +1,65 @@
+.container{
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.status_card{
+  margin: 20px;
+  padding: 15px;
+  background: #eaeaea;
+  .field_value p{
+    border-bottom: 1px black solid;
+  }
+}
+
+.keypad_btn{
+  height: 75px;
+  width: 75px;
+  border: 1px solid #000;
+  margin: 10px;
+  background: transparent;
+  font-size: 28px;
+}
+
+.input_panel{
+  margin: 10px;
+  padding: 15px;
+  background: #eaeaea;
+  font-size: 28px;
+  border: 1px black solid;
+}
+.submit_btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 64px;
+  margin: 10px;
+  border: 1px black solid;
+  font-size: 36px;
+  color: #6fb96f;
+}
+
+.select_card{
+  img{
+    width: 100%;
+    padding: 8px;
+  }
+}
+
+.add_card_btn{
+  padding: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  i{
+    font-size: 60px;
+  }
+  p{
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+.cards_list{
+  padding: 20px;
+}

@@ -1,0 +1,7 @@
+export const CIMB_VISA_SIGNATURE = '90b4dba4-84e1-45df-b98a-4962b52d4e21';
+export const STANDCHART_SINGPOST = 'adda3c5a-ab83-4e78-aa2a-ae6d3c3073ba';
+export const DBS_VISA_DEBIT = '80b81724-9687-4cd2-950b-8c8a663b5881';
+export const OCBC_365 = '252e8610-f1e2-49da-910b-bac8b457d282';
+export const CITIBANK_SMRT = 'f8d2946a-162b-4424-a700-1e10ae59bd3d';
+
+// import {CIMB_VISA_SIGNATURE, STANDCHART_SINGPOST, DBS_VISA_DEBIT, OCBC_365, CITIBANK_SMRT} from 'modules/BankUUID'

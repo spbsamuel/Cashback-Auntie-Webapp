@@ -1,0 +1,24 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.calculated_cashback {
+  padding: 10px;
+  em {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+  }
+  .details {
+    padding: 0 10px;
+  }
+}
+
+.amount_field {
+  margin: 10px;
+  padding: 10px 35px;
+  border: 1px solid black;
+}

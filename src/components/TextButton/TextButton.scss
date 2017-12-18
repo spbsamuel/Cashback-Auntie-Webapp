@@ -1,0 +1,19 @@
+.text_button {
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin: 10px 5px;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+.text_button:hover {
+  color: #299987;
+}
+
+.text_button:active {
+  color: #2a8475;
+  top: 2px;
+}

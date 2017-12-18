@@ -1,0 +1,27 @@
+@import "../../../styles/main_variables";
+
+
+.card_image{
+  img{
+    width: 100%;
+    height: inherit;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  img.loaded{
+    opacity: 1;
+  }
+  height: 220px;
+  background: grey url(../../assets/image_shell.jpg) center/cover no-repeat;
+}
+@media only screen and (min-width: $tablet) {
+  .card_image{
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: $desktop) {
+  .card_image{
+    height: 180px;
+  }
+}

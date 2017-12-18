@@ -1,0 +1,55 @@
+@import './variables/colors';
+@import './variables/typography';
+
+//Sizes
+$root-mobile: 12px;
+$root-tablet: 14px;
+$root-desktop: 16px;
+$root-hd-desktop: 16px;
+
+$hd-desktop: 1200px; //lg
+$desktop: 960px; //md
+$tablet: 680px; //sm
+$mobile: 480px; //xs
+
+$desktop-percentage: 0.90;
+$tablet-percentage: 0.90;
+$mobile-percentage: 0.94;
+
+$mobile-max-width: 94%;
+$tablet-max-width: 90%;
+$desktop-max-width: 90%;
+$hd-desktop-max-width: 80%;
+$absolute-max-width: 1440px;
+
+$column-padding: 1rem;
+$row-margin: 1rem;
+
+$main-text: $avenir-normal;
+$reading-text: $merriweather;
+$cursive-text: $didot-italic;
+$reading-text: $merriweather;
+$reading-weight: 300;
+
+$font-header: $avenir-black;
+
+$h1-size: 2rem;
+$h2-size: 1.6rem;
+$h3-size: 1.4rem;
+$h4-size: 1.2rem;
+$h5-size: 1.1rem;
+$h6-size: 1rem;
+
+$main-text-size-mobile: 1.4rem;
+$main-text-size-tablet: 1.25rem;
+$main-text-size-desktop: 1rem;
+$main-text-size-hd-desktop: 1rem;
+
+$text-sm: 0.8;
+$text-md: 1.2;
+$text-lg: 1.5;
+$text-xl: 2;
+
+$primary-text-color: $dark-grey;
+$primary-background-color: $light-grey;
+$accented-color: $green;

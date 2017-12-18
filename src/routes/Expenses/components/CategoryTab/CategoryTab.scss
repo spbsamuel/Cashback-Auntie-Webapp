@@ -1,0 +1,42 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.status_card {
+  margin: 20px;
+  padding: 15px;
+  background: #eaeaea;
+  .field_value p {
+    border-bottom: 1px black solid;
+  }
+}
+
+.credit_card_image {
+  width: 100%;
+}
+
+.credit_card{
+  box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647);
+  margin: 10px;
+  padding: 5px;
+}
+
+.expense_card{
+  margin: 0 10px;
+  padding: 5px 15px;
+  border-bottom: 1px #eaeaea solid;
+}
+
+.expenses{
+  transition: max-height 0.5s;
+  height: auto;
+}
+.expenses_show{
+  max-height: 50vh;
+  overflow: scroll;
+}
+.expenses_hide{
+  max-height: 0;
+  overflow: hidden;
+}

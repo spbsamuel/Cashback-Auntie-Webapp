@@ -1,0 +1,141 @@
+.container{
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.status_card{
+  margin: 20px;
+  padding: 15px;
+  background: #eaeaea;
+  .field_value p{
+    border-bottom: 1px black solid;
+  }
+}
+
+.keypad_btn{
+  height: 75px;
+  width: 75px;
+  border: 1px solid #000;
+  margin: 10px;
+  background: transparent;
+  font-size: 28px;
+}
+
+.input_panel{
+  margin: 10px;
+  padding: 15px;
+  background: #eaeaea;
+  font-size: 28px;
+  border: 1px black solid;
+}
+.submit_btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 64px;
+  margin: 10px;
+  border: 1px black solid;
+  font-size: 36px;
+  color: #6fb96f;
+}
+
+.select_card{
+  img{
+    width: 100%;
+    padding: 8px;
+  }
+}
+
+.save_btn{
+  padding: 15px;
+  text-align: center;
+  margin: 10px 20px;
+  margin-left: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647);
+  font-size: 24px;
+  background-color: #6fb96f;
+}
+
+.cancel_btn{
+  padding: 15px;
+  text-align: center;
+  margin: 10px 20px;
+  margin-right: 10px;
+  font-size: 24px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647);
+  background-color: #fbb3b3;
+}
+
+.icon_btn{
+  text-align: center;
+  font-size: 12px;
+  button{
+    height: 5em;
+    width: 60%;
+    background: transparent;
+    border: none;
+    margin: 8px 0;
+    box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647);
+    *{
+      display: block;
+    }
+  }
+}
+
+.pad_20{
+  padding: 0 20px;
+}
+
+.category_btn{
+  height: 100%;
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+  background-color: transparent;
+  width: 70%;
+  border: none;
+  vertical-align: top;
+}
+.category_menu{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.category_btn_group{
+  margin: 5px;
+  height: 3.2em;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+
+.hidden_forms{
+  display: none;
+}
+
+button.image_bg{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.faded_fonts{
+  *{
+    color: rgba(0, 0, 0, 0.25);
+  }
+}
+
+.sub_category_btn{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.117647), 0 1px 4px rgba(0,0,0,.117647);
+}
+
+.overview{
+  margin: 10px 24px;
+  padding: 10px;
+  background-color: #eaeaea;
+}

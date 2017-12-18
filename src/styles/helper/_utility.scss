@@ -1,0 +1,41 @@
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+
+.clickable{
+  cursor: pointer;
+  position: relative;
+}
+.clickable:hover{
+  color: #299987;
+}
+.clickable:active{
+  color: #2a8475;
+  top: 2px;
+}
+@media (max-width: 679px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 680px) and (max-width: 959px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}

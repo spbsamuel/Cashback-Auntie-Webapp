@@ -1,0 +1,164 @@
+@import "../../../styles/main_variables";
+.header_container {
+  height: 60px;
+  .desktop_menu{
+    display: none;
+    white-space: nowrap;
+    width: 100%;
+    padding: 0 20px;
+    .home_btn{
+      *:nth-child(2){
+        display: inline-block;
+        vertical-align: bottom;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .mobile_tab_menu{
+    display: block;
+    font-size: $main-text-size-mobile*$text-sm !important;
+  }
+}
+
+@media only screen and (min-width: $tablet) {
+  .header_container {
+    height: 80px;
+    border-bottom: 1px solid black;
+    .desktop_menu{
+      display: inline-flex;
+    }
+
+    .tab_menu{
+      margin-top: 20px;
+      margin-left: auto;
+      width: 80%;
+      min-width: 480px;
+    }
+    .arthop_logo {
+      height: 52px;
+      width: auto;
+      margin-top: 15px;
+    }
+    .mobile_tab_menu{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: $desktop) {
+  .header_container {
+    height: 80px;
+    border-bottom: 1px solid black;
+    .desktop_menu{
+      display: inline-flex;
+    }
+
+
+    .tab_menu{
+      margin-top: 20px;
+      margin-left: auto;
+      width: 80%;
+      min-width: 540px;
+    }
+    .arthop_logo {
+      height: 70px;
+      width: auto;
+    }
+  }
+
+}
+
+@media only screen and (min-width: $hd-desktop) {
+  .header_container {
+    height: 80px;
+    border-bottom: 1px solid black;
+    .desktop_menu{
+      display: inline-flex;
+    }
+
+    .tab_menu{
+      margin-top: 20px;
+      margin-left: auto;
+      width: 80%;
+      min-width: 540px;
+    }
+    .arthop_logo {
+      height: 70px;
+      width: auto;
+    }
+  }
+}
+
+.inline_tab {
+  div {
+    display: inline !important;
+  }
+  i {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+}
+
+.drawer {
+  margin: 30px;
+}
+
+.text_button {
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin: 10px 5px;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+.text_button:hover {
+  color: #299987;
+}
+
+.text_button:active {
+  color: #2a8475;
+  top: 2px;
+}
+
+.icon_button {
+  outline: none;
+  cursor: pointer;
+  margin: 10px 5px;
+  padding: 0;
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: #299987;
+  -moz-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.icon_button:active {
+  background-color: #2a8475;
+}
+
+.inline_child_buttons {
+  button {
+    display: inline-block;
+  }
+}
+
+.sample_image {
+  width: 100%;
+  height: 180px;
+  background: grey url(https://trial-arthop.s3.amazonaws.com/public/layout_images/428/mobile_%5BReception%5D_Liquid_Truth_4cf6f743.png) center/cover no-repeat;
+}
+
+.menu_container {
+  padding-bottom: 20px;
+  background-color: #f3f1f1;
+  margin: 15px 0px;
+}

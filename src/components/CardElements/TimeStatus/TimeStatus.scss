@@ -1,0 +1,13 @@
+@import "../../../styles/main_variables";
+
+.TimeStatus {
+  margin: 5px 0;
+  display: block;
+  font-size: 0.75em;
+}
+.open{
+  color: $accented-color;
+}
+.default{
+  color: inherit;
+}
